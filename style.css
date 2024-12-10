@@ -1,0 +1,112 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Main Container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Section Styling */
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* About Section Image */
+#profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Portfolio Section */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+}
